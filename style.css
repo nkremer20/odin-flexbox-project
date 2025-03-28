@@ -20,7 +20,7 @@ ul {
     justify-content: space-between;
     align-items: baseline;
     background-color: #1F2937;
-    padding: 10px 0 0 0;
+    padding: 10px 200px 100px;
 }
 
 a, .hero-text > p {
@@ -36,22 +36,56 @@ a, .hero-text > p {
 
 .hero {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px 100px;
+    flex: 1;
+    gap: 50px;
 }
 
 .title {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
-.hero-text > button {
-    background-color: #3882F6;
-    color: white;
-    padding: 5px 15px;
+button {
+    padding: 8px 30px;
     border: none;
     border-radius: 5px;
 }
 
+
+.hero-text > button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
 .hero-image {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D747D;
+    height: 250px;
+    width: 800px;
+    color: white;
+}
+
+.info {
+
+}
+
+.info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
 }
