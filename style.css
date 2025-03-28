@@ -92,7 +92,7 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .info-cards {
@@ -116,4 +116,8 @@ button {
     border-radius: 10px;
     height: 125px;
     width: 125px;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
