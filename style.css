@@ -182,7 +182,14 @@ button {
     color: white;
 }
 
-
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75spx;
+}
 
 
 
